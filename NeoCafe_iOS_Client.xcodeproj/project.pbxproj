@@ -24,6 +24,10 @@
 		BAE592E22B681B39008C26AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAE592E52B681B39008C26AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAE592E72B681B39008C26AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE5930E2B691EF5008C26AC /* SFProDisplay-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Medium.ttf"; sourceTree = "<group>"; };
+		BAE5930F2B691EF5008C26AC /* SFProDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		BAE593102B691EF5008C26AC /* SFProDisplay-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Semibold.ttf"; sourceTree = "<group>"; };
+		BAE593132B691F6A008C26AC /* SFProDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		BAE592D82B681B37008C26AC /* NeoCafe_iOS_Client */ = {
 			isa = PBXGroup;
 			children = (
+				BAE5930D2B691EDB008C26AC /* Fonts */,
 				BAE592D92B681B37008C26AC /* AppDelegate.swift */,
 				BAE592DB2B681B37008C26AC /* SceneDelegate.swift */,
 				BAE592DD2B681B37008C26AC /* ViewController.swift */,
@@ -65,6 +70,17 @@
 				BAE592E72B681B39008C26AC /* Info.plist */,
 			);
 			path = NeoCafe_iOS_Client;
+			sourceTree = "<group>";
+		};
+		BAE5930D2B691EDB008C26AC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BAE5930E2B691EF5008C26AC /* SFProDisplay-Medium.ttf */,
+				BAE593132B691F6A008C26AC /* SFProDisplay-Bold.ttf */,
+				BAE5930F2B691EF5008C26AC /* SFProDisplay-Regular.ttf */,
+				BAE593102B691EF5008C26AC /* SFProDisplay-Semibold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
